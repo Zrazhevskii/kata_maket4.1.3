@@ -26,7 +26,8 @@
     font-family: 'TT Lakes';
     src: url('../style/fonts/TTLakes-Bold.eot');
     src: local('TT Lakes Bold'), local('TTLakes-Bold'),
-        url('../style/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../style/fonts/TTLakes-Bold.eot?#iefix')
+            format('embedded-opentype'),
         url('../style/fonts/TTLakes-Bold.woff') format('woff'),
         url('../style/fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: 700;
@@ -39,11 +40,10 @@ body {
     padding: 0;
 }
 
-
 .menu {
     width: 320px;
     height: 980px;
-    box-shadow: 20px 0px 35px -5px rgba(0, 0, 0, .2);
+    box-shadow: 20px 0px 35px -5px rgba(0, 0, 0, 0.2);
 }
 
 .menu__header {
@@ -94,7 +94,11 @@ li {
     background: url('../style/img/search.png') no-repeat;
 }
 
-.burger:hover, .search:hover, .chat:hover, .call:hover, .profile:hover {
+.burger:hover,
+.search:hover,
+.chat:hover,
+.call:hover,
+.profile:hover {
     opacity: 0.5;
     transition-duration: 1s;
 }
@@ -146,7 +150,8 @@ li {
     padding-left: 24px;
 }
 
-.main__link a:hover, .main__footer-email:hover {
+.main__link a:hover,
+.main__footer-email:hover {
     color: #7e7e82;
     transition-duration: 0.2s;
 }
@@ -187,14 +192,13 @@ li {
     position: absolute;
 }
 
-.main__link:hover ~ .main__link .active{
+.main__link:hover ~ .main__link .active {
     color: black;
 }
 
 .main__link:hover ~ .main__link .active::before {
     display: none;
 }
-
 
 .main__footer {
     display: flex;
@@ -273,7 +277,8 @@ li {
     padding-right: 7px;
 }
 
-.main__footer-link-lang, .main__footer-link-abbr {
+.main__footer-link-lang,
+.main__footer-link-abbr {
     font-weight: 500;
     color: #000;
     text-decoration: none;
@@ -287,7 +292,9 @@ li {
     color: #7e7e82;
 }
 
-.main__footer__lang-link-item:hover ~ .main__footer__lang-link-item .main__footer-link-lang .main__footer-link-abbr--active {
+.main__footer__lang-link-item:hover
+    ~ .main__footer__lang-link-item
+    .main__footer-link-lang
+    .main__footer-link-abbr--active {
     color: #000;
 }
-
